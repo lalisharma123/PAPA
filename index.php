@@ -1,6 +1,6 @@
 <?php
 
-$botToken = "6768071825:AAF820oPYrha0ggGilmQpglQj3e5F7yFR_w";
+$botToken = "7877318723:AAHeP1nj_-0XR4OyKYJbav8RuuJq4RTkG8c";
 $website = "https://api.telegram.org/bot".$botToken;
 $update = file_get_contents('php://input');
 //echo $update;
@@ -28,8 +28,8 @@ $username3       = ('@'.$username);
  $info            = json_encode($update, JSON_PRETTY_PRINT); 
 $emojid = '❌';
 $emojil = '✅';
-$owner = '<code>@WhiteDevilXT</code>';
-$botu = "𝐁𝐨𝐭 𝐔𝐩𝐝𝐚𝐭𝐞𝐬 ↯ @WhiteDevilXT";
+$owner = '<code>@MRCARDER700</code>';
+$botu = "𝐁𝐨𝐭 𝐔𝐩𝐝𝐚𝐭𝐞𝐬 ↯ @MRCARDER700";
 $cofuid = '1212';
 $cofuid2 = '1212';
 $cofuid3 = '1212';
@@ -80,7 +80,7 @@ $callbackmessage = $update->callback_query->message->text;
 $callbackid = $update->callback_query->id;
 
 $text = $update->message->text;
-$owner = '<code>@WhiteDevilXT</code>';
+$owner = '<code>@MRCARDER700</code>';
 
 
 
@@ -541,7 +541,7 @@ if ($cdata2 == "price") {
 
     $priceKeyboard = json_encode([
         'inline_keyboard' => [
-            [['text' => ' 𝙃𝙤𝙢𝙚 🏡 ', 'callback_data' => 'back2'], ['text' => '[🜲] 𝙊𝙬𝙣𝙚𝙧', 'url' => 'https://t.me/WhiteDevilXT']]
+            [['text' => ' 𝙃𝙤𝙢𝙚 🏡 ', 'callback_data' => 'back2'], ['text' => '[🜲] 𝙊𝙬𝙣𝙚𝙧', 'url' => 'https://t.me/MRCARDER700']]
         ]
     ]);
 
@@ -583,7 +583,7 @@ file_get_contents("https://api.telegram.org/bot$botToken/deleteMessage?chat_id=$
 //========finalize end=========//
 $channel = json_encode([
     'inline_keyboard' => [
-        [['text' => "🌧 Owner 🌧 ", 'url' => "https://t.me/WhiteDevilXT"], ['text' => "💥 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 💥", 'url' => "https://t.me/WhiteDevilXT"]],
+        [['text' => "🌧 Owner 🌧 ", 'url' => "https://t.me/MRCARDER700"], ['text' => "💥 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 💥", 'url' => "https://t.me/MRCARDER700"]],
         [['text' => " 𝗕𝗔𝗖𝗞  ", 'callback_data' => 'back2']]
     ]
 ]);
@@ -620,8 +620,8 @@ if ($cdata2 == "back2") {
                                                             ["text" => "𝘾𝙡𝙤𝙨𝙚 🔒", "callback_data" => "price"]
                                                         ],
                                                         [                                     ["text" => "𝙊𝙩𝙝𝙚𝙧 𝙏𝙤𝙤𝙡𝙨 🧰", "callback_data" => "herr"],
-                             ['text' => '[🜲] 𝙊𝙬𝙣𝙚𝙧 ', 'url' => 'https://t.me/WhiteDevilXT'],
-                             ['text' => ' 𝗟𝗮𝗳𝗮 (𝗚𝗨𝗜𝗔)', 'url' => 'https://t.me/WhiteDevilXT']
+                             ['text' => '[🜲] 𝙊𝙬𝙣𝙚𝙧 ', 'url' => 'https://t.me/MRCARDER700'],
+                             ['text' => ' 𝗟𝗮𝗳𝗮 (𝗚𝗨𝗜𝗔)', 'url' => 'https://t.me/MRCARDER700']
                                               ],
                                        ]
                                                 ]);
