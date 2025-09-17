@@ -1,0 +1,17 @@
+# railway.yaml
+build:
+  builder: NIXPACKS
+
+deployments:
+  - name: telegram-bot
+    runtime: NIXPACKS
+    buildCommand: |
+      apt-get update
+      apt-get install -y php php-curl php-json php-mbstring
+    startCommand: php -S 0.0.0.0:$PORT index.php
+    env:
+      - name: BOT_TOKEN
+        value: "7877318723:AAHeP1nj_-0XR4OyKYJbav8RuuJq4RTkG8c"
+    resources:
+      cpu: 0.5
+      memory: 512
